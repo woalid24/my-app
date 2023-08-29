@@ -23,5 +23,5 @@ export const POST = async () => {
 };
 
 export const GET = async () => {
-  return NextResponse.json({ mgs: "Mohiuddin" }, { status: 201 });
+  return NextResponse.json({ mgs: "woalid" }, { status: 201 });
 };
