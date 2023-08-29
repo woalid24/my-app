@@ -3,7 +3,7 @@ import Show_Display from "@/components/Show_Display";
 
 const Home = () => {
   return (
-    <div className="w-4/6 mx-auto">
+    <div className="w-4/6 ml-[760px] mt-52 ">
       <Set_Cookies />
       <Show_Display />
     </div>

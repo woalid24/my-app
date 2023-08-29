@@ -4,7 +4,7 @@ import { cookies } from "next/headers";
 const Show_Display = () => {
   const cookie = cookies();
 
-  // cookie.delete("token");
+  
 
   return cookie.getAll().map((cookie, index) => (
     <div key={index}>
